@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+table, th, td {
+    border: 2px solid purple;
+}
+table {
+    margin: auto;
+}
+td, tr {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    background-color: skyblue;
+}
+body {
+    background-color: white; 
+}
+th {
+    text-transform: strong;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+}
+td {
+    background-color: rgb(0, 255, 157);
+}
+body {
+    background-color: rgb(37, 37, 37);
+}
+#titel {
+    background-color: white;
+}
+#brödtext {
+    color: white
+}

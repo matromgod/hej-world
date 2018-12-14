@@ -1,0 +1,27 @@
+body {
+    background-color: green;
+    background-image: url('navidad.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Mountains of Christmas', cursive;
+}
+#titel {
+    padding-top: 90px;
+    padding-left: 100px;
+    font-size: 120px;
+}
+#slut {
+    padding-left: 100px;
+    font-size: 90px;
+}
+p {
+    text-align: center;
+    color: white;
+    padding-left: 100px;
+    font-size: 30px;
+    font-family: 'Mountains of Christmas', cursive;
+}

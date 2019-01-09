@@ -35,3 +35,24 @@ body {
 #brödtext {
     color: white
 }
+img#Tweet_button{
+    position: fixed;
+    bottom: 2px;
+    right: 2px;
+    height: 50px;
+    width: 100px;
+}
+img#Facebook_button{
+    position: fixed;
+    bottom: 8px;
+    right: 104px;
+    height: 38px;
+    width: 35px;
+}
+img#bild_på_Matheo{
+    display: block;
+    margin: auto;
+    position: relative;
+    height: 350px;
+    width: 350px;
+}

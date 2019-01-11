@@ -32,8 +32,24 @@ body {
 #titel {
     background-color: white;
 }
-#brödtext {
-    color: white
+#brödtext1 {
+    color: white;
+}
+#brödtext2{
+    color: white;
+}
+#titel2{
+    position: absolute;
+    top: 55px;
+    right: 15px;
+
+}
+ol{
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    border: 3px solid red;
+    width: 250px;
 }
 img#Tweet_button{
     position: fixed;
@@ -55,4 +71,16 @@ img#bild_på_Matheo{
     position: relative;
     height: 350px;
     width: 350px;
+}
+img#ntilogga{
+    position: fixed;
+    bottom: 2px;
+    right: 145px;
+    height: auto;
+    width: 48px;
+}
+#internetshistoria{
+    position: relative;
+    bottom: 10px;
+    right: 1px;
 }

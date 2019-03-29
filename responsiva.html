@@ -5,24 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="responsivecss.css">
+    <style>
+        body{
+            background-repeat: no-repeat;
+            background-image: url('https://pixnio.com/free-images/2018/06/15/2018-06-15-16-34-11-1200x887.jpg');
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        @media only screen and (max-width: 1450px){
+            body{
+                background-image: url('bigcar.jpg');                
+            }
+        }
+    </style>
 </head>
     <body>
-        <div class="bigcar">
-            <div class="w3-third w3-container">
-                <img src="bigcar.jpg" alt="bigcar" height="auto" width="100%"> 
-            </div>
-        </div>
-        <div class="w3-row w3-border">
-                <a href="https://www.ntigymnasiet.se/sodertalje/">
-                    <img src="nti-sitelogo-180x180.png" alt="NTI" class="bild">
-                </a>
-                <a href="sida_om_mig.html"> 
-                    <img src="FabianBond.png" alt="om mig sida" class="bild">
-                </a>
-                <a href="internets-historia.html">
-                    <img src="magnifying-glass.png" alt="internets historia" class="bild">
-                </a>
-        </div>
+            <header>
+                <h1>Responsiv bild</h1>
+            </header>      
     </body>
 </html>
